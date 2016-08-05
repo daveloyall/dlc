@@ -1,0 +1,6 @@
+#!/bin/sh
+
+## ATTN, hard coded path!  Sorry!!
+## See http://mywiki.wooledge.org/BashFAQ/028
+
+sbcl --script ~/src/dlc/dlc.lisp

@@ -1,7 +1,7 @@
-DLC
+dlc
 ===
 
-DLC takes lispy template files (cl-template) as input and emits
+dlc takes lispy template files (cl-template) as input and emits
 Graphviz DOT language files as output.  It includes Common Lisp
 functions for creating nodes and edges and setting attributes on
 them.
@@ -13,7 +13,7 @@ If your normal workflow looks like this:
         Editor -> dot -> "Image Viewer";
     }
 
-... after DLC, it will look like this:
+... after dlc, it will look like this:
 
     digraph makin_diagrams {
         #Author graphs via Common Lisp
